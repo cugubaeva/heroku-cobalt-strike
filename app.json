@@ -5,7 +5,7 @@
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/cugubaeva/heroku-reverse-proxy",
+	"repository": "https://github.com/cugubaeva/heroku-cobalt-strike",
 	"buildpacks": [
 		{
 			"url": "http://github.com/octoberswimmer/heroku-buildpack-nginx.git"
