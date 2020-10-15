@@ -8,6 +8,6 @@ Use the [Deploy to Heroku](https://heroku.com/deploy) button above to create a c
 
 ## Credits
 
-Fully based on: https://github.com/octoberswimmer/heroku-reverse-proxy.
+Based on [heroku-reverse-proxy](https://github.com/octoberswimmer/heroku-reverse-proxy).
 
 Based on [api-proxy-3scale-heroku](https://github.com/Taytay/api-proxy-3scale-heroku).
