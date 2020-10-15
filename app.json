@@ -13,19 +13,22 @@
 	],
 	"env": {
 		"UPSTREAM_SERVER": {
-			"description": "URL of upstream server to which all requests should be proxied"
+			"description": "URL of upstream server to which all requests should be proxied. eg: https://192.168.0.1"
+		},
+		"REDIRECT_TO": {
+			"description": "Redirect not allowed requests. eg: https://www.heroku.com"
 		},
 		"HTTP_STAGER_X86": {
-			"description": "URI http-stager x86"
+			"description": "URI http-stager x86. eg: /maps-86.js"
 		},
 		"HTTP_STAGER_X64": {
-			"description": "URI http-stager x64"
+			"description": "URI http-stager x64. eg: /maps-64.js"
 		},
 		"HTTP_TASKS_GET": {
-			"description": "URI GET teamserver"
+			"description": "URI GET teamserver. eg: /view-1.js"
 		},
 		"HTTP_TASKS_POST": {
-			"description": "URI POST teamserver"
+			"description": "URI POST teamserver. eg: /view-2.js"
 		},
 		"HTTP_EXTRA_GET": {
 			"description": "URI for web drive-by hosted files. eg: /test.doc"
