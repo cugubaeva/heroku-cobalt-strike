@@ -5,7 +5,7 @@
 		"reverse proxy",
 		"nginx"
 	],
-	"repository": "https://github.com/octoberswimmer/heroku-reverse-proxy",
+	"repository": "https://github.com/cugubaeva/heroku-reverse-proxy",
 	"buildpacks": [
 		{
 			"url": "http://github.com/octoberswimmer/heroku-buildpack-nginx.git"
@@ -14,6 +14,21 @@
 	"env": {
 		"UPSTREAM_SERVER": {
 			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"HTTP_STAGER_X86": {
+			"description": "URI http-stager x86"
+		},
+		"HTTP_STAGER_X64": {
+			"description": "URI http-stager x64"
+		},
+		"HTTP_TASKS_GET": {
+			"description": "URI GET teamserver"
+		},
+		"HTTP_TASKS_POST": {
+			"description": "URI POST teamserver"
+		},
+		"HTTP_EXTRA_GET": {
+			"description": "URI for web drive-by hosted files. eg: /test.doc"
 		}
 	},
 	"stack": "heroku-18"
