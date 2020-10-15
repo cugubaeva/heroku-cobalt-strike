@@ -34,7 +34,7 @@ http {
 		}
 
 	  	location @redirect {
-   			return 302 https://heroku.com$request_uri;
+   			return 302 <%= ENV["REDIRECT_TO"] %>$request_uri;
   		}
 
 	}
